@@ -1,0 +1,5 @@
+policy_id,title,frameworks,owner,approver,version,effective_date,next_review_date,status,doc_id,archive_file_id,dcf_controls,review_cadence_days
+[YOUR POLICY FOR DLP],Information Security Policy,ISO 27001,compliance@example.com,ciso@example.com,Rev 02,[Past Year]-01-15,[Current Year]-01-15,Approved,,,[YOUR_CONTROL_ID];[YOUR_CONTROL_ID],365
+[YOUR POLICY FOR IMS Management Review],Management Review Policy,ISO 27001;ISO 27701;ISO 42001,compliance@example.com,ceo@example.com,Rev 01,[Past Year]-06-01,[Current Year]-06-01,Approved,,,[YOUR_CONTROL_ID],365
+[YOUR POLICY FOR POLICY-20],Internal Audit Policy,ISO 27001,compliance@example.com,ciso@example.com,Rev 01,[Past Year]-01-01,[Current Year]-01-01,Approved,,,[YOUR_CONTROL_ID],365
+[YOUR POLICY FOR POLICY-25],Risk Management Policy,ISO 27001,compliance@example.com,ciso@example.com,Rev 01,[Past Year]-01-01,[Current Year]-01-01,Approved,,,[YOUR_CONTROL_ID],365

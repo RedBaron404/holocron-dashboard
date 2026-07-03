@@ -1,0 +1,11 @@
+dcf_id,title,iso_27001_ref,pci_dss_ref,evidence_source,domain
+[YOUR_CONTROL_ID],Baseline hardening,A.8.9,2.2,[YOUR_IAM_TOOL]/MDM,ISMS
+[YOUR_CONTROL_ID],DR testing,A.5.29,12.10.1,DR test reports,ISMS
+[YOUR_CONTROL_ID],Disable root SSH,A.8.9,8.4.2,Production access review,ISMS
+[YOUR_CONTROL_ID],DLP mandates,A.8.12,3.4,EDR-Provider DLP,ISMS
+[YOUR_CONTROL_ID],Asset management,A.5.9,12.3.1,Asset inventory sheet,ISMS
+[YOUR_CONTROL_ID],Document control,A.5.33,12.1.1,Policy register,ISMS
+[YOUR_CONTROL_ID],Vendor scope,A.5.19,12.8.1,Vendor inventory,PIMS
+[YOUR_CONTROL_ID],Shared accounts,A.5.16,8.2.1,IAM audit logs,ISMS
+[YOUR_CONTROL_ID],AI development,A.5.34,,AI impact assessments,AIMS
+[YOUR_CONTROL_ID],AI data management,A.5.34,,Data governance records,AIMS

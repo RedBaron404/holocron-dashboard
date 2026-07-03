@@ -1,0 +1,5 @@
+risk_id,aspect,impact,likelihood,severity,treatment,owner,leadership_approver,status,updated_at
+AA-08,Zero-day vulnerability in critical system,High,Moderate,High,Mitigate,security@example.com,,Open,[Past Year]-12-01T00:00:00Z
+AA-09,Advanced persistent threat targeting credentials,Critical,Low,High,Mitigate,security@example.com,,Open,[Past Year]-11-15T00:00:00Z
+AI-03,Privacy breach via AI system processing personal data,High,Low,Moderate,Mitigate,privacy@example.com,,Open,[Past Year]-10-01T00:00:00Z
+AI-04,Regulatory non-compliance for AI deployments,Moderate,Moderate,Moderate,Mitigate,compliance@example.com,,Monitoring,[Past Year]-09-01T00:00:00Z

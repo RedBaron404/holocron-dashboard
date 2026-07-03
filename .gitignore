@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.next/
+.env
+.env.local
+.env.op
+*.log
+.DS_Store
+coverage/
+backend/dist/
+frontend/.next/
+data/secrets/
+*-credentials.json
+service-account*.json

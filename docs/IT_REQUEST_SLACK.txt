@@ -1,0 +1,16 @@
+Hi — I'm setting up *Corporate Holocron* (local GRC compliance tool: Workspace Sheets/Drive/Docs + Vertex Gemini for control-gap analysis). Dev only, not prod hosting yet.
+
+Could we get a *new* GCP project (separate from `corporate-ai-dev`)?
+
+• *Project ID:* `corporate-holocron-dev` (or org equivalent)
+• *Billing:* org account (Vertex AI)
+• *APIs:* Sheets, Drive, Docs, Vertex AI, IAM Service Account Credentials
+• *Access for me:* Editor (or ability to create OAuth desktop client + `holocron-backend` service account)
+• *OAuth redirect:* `http://localhost:4000/auth/callback`
+• *Vertex:* please confirm ZDR / no-training terms for compliance use
+
+Happy to create OAuth/SA myself if I get project access — or IT can provision and send credentials via 1Password.
+
+Full spec: `docs/IT_REQUEST_GCP_PROJECT.md` in the Holocron repo.
+
+Thanks!

@@ -1,0 +1,11 @@
+task_id,category,title,cadence,owner,next_due_date,linked_register,linked_id,escalation_days,status
+PC-001,Policy reviews,Annual POL-OC-* policy review cycle,Annual,compliance@example.com,[Current Year]-01-15,PolicyRegister,[YOUR POLICY FOR DLP],14,Active
+PC-002,Risk register review,Quarterly risk register review,Quarterly,compliance@example.com,[Current Year]-04-01,Risks,,7,Active
+PC-003,Internal audit,Q1 ISMS internal audit,Quarterly,compliance@example.com,[Current Year]-03-31,AuditCalendar,Q1-ISMS,7,Active
+PC-004,Internal audit,Q2 PIMS internal audit,Quarterly,compliance@example.com,[Current Year]-06-30,AuditCalendar,Q2-PIMS,7,Active
+PC-005,Internal audit,Q3 AIMS internal audit,Quarterly,compliance@example.com,[Current Year]-09-30,AuditCalendar,Q3-AIMS,7,Active
+PC-006,Management Review,Q4 integrated management review,Annual,compliance@example.com,[Current Year]-11-30,PolicyRegister,[YOUR POLICY FOR IMS Management Review],14,Active
+PC-007,Asset inventory,Annual asset inventory review,Annual,security@example.com,[Current Year]-12-31,Assets,,14,Active
+PC-008,BCP/DR test,Annual disaster recovery test,Annual,security@example.com,[Current Year]-06-15,,[YOUR_CONTROL_ID],14,Active
+PC-009,Access review,Quarterly privileged access review,Quarterly,security@example.com,[Current Year]-04-01,,,7,Active
+PC-010,NCR/CAPA,Monthly open CAPA effectiveness check,Monthly,compliance@example.com,[Current Year]-02-01,CAPA,,3,Active
