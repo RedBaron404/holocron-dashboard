@@ -6,7 +6,7 @@ Deposit Corporate IMS artifacts here **before** Holocron becomes authoritative. 
 
 | Path | Artifact | Status |
 |------|----------|--------|
-| `policies/` | Full `POL-OC-*` policy set (PDF or Doc exports) | **Pending user deposit** |
+| `policies/` | Full `[YOUR-POLICY-*]` policy set (PDF or Doc exports) | **Pending user deposit** |
 | `policies/internal-audit-policy.pdf` | Internal audit policy + schedule | Pending |
 | `exports/risk-register.csv` | Current risk register | See `seed/risk-register.csv` for template |
 | `exports/dcf-map.csv` | DCF / control map snapshot | See `seed/dcf-map.csv` |

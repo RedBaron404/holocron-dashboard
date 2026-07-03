@@ -6,7 +6,7 @@
 
 ## Executive summary
 
-Holocron can replace [YOUR_GRC_PLATFORM] for **policy lifecycle**, **risk register**, **internal audit program**, **program calendar**, and **NCR/CAPA** without retaining any [YOUR_GRC_PLATFORM] API integration. Seed templates establish the minimum viable data model; full `POL-OC-*` PDF/Doc deposits in `docs/intake/policies/` remain **pending** for final owner/approver validation.
+Holocron can replace [YOUR_GRC_PLATFORM] for **policy lifecycle**, **risk register**, **internal audit program**, **program calendar**, and **NCR/CAPA** without retaining any [YOUR_GRC_PLATFORM] API integration. Seed templates establish the minimum viable data model; full `[YOUR-POLICY-*]` PDF/Doc deposits in `docs/intake/policies/` remain **pending** for final owner/approver validation.
 
 ## Extracted rules (from intake + IMS context)
 
@@ -14,7 +14,7 @@ Holocron can replace [YOUR_GRC_PLATFORM] for **policy lifecycle**, **risk regist
 
 | Rule | Source | Encoding |
 |------|--------|----------|
-| Default annual review for `POL-OC-*` | Plan + seed policy-register | `review_cadence_days=365` unless overridden |
+| Default annual review for `[YOUR-POLICY-*]` | Plan + seed policy-register | `review_cadence_days=365` unless overridden |
 | [YOUR POLICY FOR IMS Management Review] tied to Q4 Management Review | ims-management-review-[Current Year] | Program calendar task `PC-006` |
 | Document control via [YOUR_CONTROL_ID] | grc-workflows skill | `dcf_controls` on Policy Register |
 | Approval before archive | Plan autonomy matrix | Human confirms before `initiateDocumentApproval` |
@@ -48,7 +48,7 @@ All tasks in `seed/program-calendar.csv` are in scope for v1 daily scan. Deferre
 
 | Gap | Severity | Resolution |
 |-----|----------|------------|
-| Full POL-OC-* corpus not deposited | Medium | User adds PDFs to `docs/intake/policies/`; update policy-register.csv with real `doc_id` values |
+| Full [YOUR-POLICY-*] corpus not deposited | Medium | User adds PDFs to `docs/intake/policies/`; update policy-register.csv with real `doc_id` values |
 | Drive folder IDs unknown | High | Complete ACCESS_CHECKLIST.md Phase 0b |
 | Drive Approvals API tier unknown | Medium | Verify in 0b; fallback = manual `status=In Review` in register |
 | Notification channel not chosen | Medium | Default: log + daily digest API; Gmail when verified |
